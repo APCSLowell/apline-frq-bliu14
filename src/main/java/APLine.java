@@ -4,10 +4,10 @@ public class APLine
   private int a;
   private int b;
   private int c;
-  public APLine(int a, int b, int c) {
-    this.a = a;
-    this.b = b;
-    this.c = c;
+  public APLine(int aa, int bb, int cc) {
+    a = aa;
+    b = bb;
+    c = cc;
   }
   public double getSlope() {
     return -a/b;
